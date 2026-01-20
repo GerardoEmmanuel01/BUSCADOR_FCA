@@ -337,7 +337,7 @@
                 largeMaterialImage.style.display = 'none';
                 largeMaterialImage.src = "";
                 pdfViewer.style.display = 'block';
-                pdfViewer.src = url;
+                pdfViewer.src = url + "#toolbar=0&navpanes=0&scrollbar=0";
             } else if (is3d) { 
                 // Caso 3D: Apaga imagen y PDF, activa visor 3D
                 largeMaterialImage.style.display = 'none';
@@ -1470,5 +1470,6 @@
 
     </script>
 </body>
+
 
 </html>
